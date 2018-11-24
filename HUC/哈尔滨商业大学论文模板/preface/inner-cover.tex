@@ -1,0 +1,44 @@
+
+%请不要修改本页的任何代码！
+%请不要修改本页的任何代码！
+%请不要修改本页的任何代码！
+\thispagestyle{empty}
+\begin{titlepage}
+    \input{paper_info.tex}
+    \setlength\parindent{0pt} %首行不缩进
+
+%\parbox[t][5cm][t]{\textwidth}{
+%    \begin{center}
+%\includegraphics[height=2.5cm]{figures/HUC}
+%    \end{center} }%图片
+
+\parbox[t][3cm][t]{\textwidth   }{\Huge
+\begin{center} {\bf \textbf \TitleCHS } \end{center} } %汉字
+
+\parbox[t][14cm][t]{\textwidth}{\huge
+\begin{center} {\bf  \TitleENG } \end{center} }%英文
+
+    \parbox[t][5cm][c]{\textwidth}{ {\Large
+    \begin{center}
+
+    \renewcommand{\arraystretch}{1.0}
+
+    \begin{tabular}{p{0cm}p{5em}l@{\extracolsep{1em}}l}
+    ~ & 学\hfill 生\hfill 姓\hfill 名&\hfill : &  \underline{{\bf\makebox[4.5cm][c]{\Author}}}\\
+    ~ & 学\hfill 号&\hfill : &  \underline{{\bf\makebox[4.5cm][c]{\StudentID}}} \\
+    ~ & 指\hfill 导\hfill 教\hfill 师&\hfill : &  \underline{{\bf\makebox[4.5cm][c]{\Supervisor}}}\\
+    ~ & 班\hfill 级&\hfill : &  \underline{{\bf\makebox[4.5cm][c]{\Class}}} \\
+   
+    ~ & 学\hfill 院&\hfill : &  \underline{{\bf\makebox[4.5cm][c]{\Department}}} \\
+    \end{tabular}
+%\underline{{\bf\makebox[4.5cm][c]{\Supervisor\hspace{1em}\AcademicTitle}}}   
+%    ~ & 完\hfill 成\hfill 日\hfill 期 & & \underline{{\bf\makebox[4.5cm][c]{\CompleteYear 年 \CompleteMonth 月}}}\\
+    \end{center}  } }
+    \vfill
+%\songti\zihao{3}
+%{\centering
+%\ctexset{today=big}         % 汉字数字形式日期
+%\today     \\ % 使用最后一次编译的日期, 实现日期的自动化
+%% Date:\hspace{0.5\ccwd} Month\hspace{2\ccwd} Day\hspace{1\ccwd} Year
+%}
+\end{titlepage} 

@@ -1,0 +1,60 @@
+%哈尔滨商业大学本科生论文latex模板
+%@Version : 1.0  
+%@Time    : 2018/11/9
+%@Author  : 冷冠男
+%非常感谢华东师范大学的袁轶军同学，解决了我很多的问题与疑惑
+%欢迎同学们提出建议与论文的错误，我会及时更改
+
+\documentclass[a4paper,oneside,UTF8]{article} %A4纸，单面，UTF-8
+
+\input{packages_and_settings.tex} %加载各宏包以及本模板的主要设置
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}%在右上角显示角标
+\begin{document}
+%\pagestyle{empty} %不对正文前的各页面使用页眉页脚
+\input{./preface/inner-cover.tex} %插入内封面
+% 直接拼入外部的开题报告单页PDF
+\includepdf[pages={1,2,3}]{pingyu.pdf}
+\pagestyle{fancy}
+\input{./preface/abstract.tex} %生成中英文摘要及关键词
+\tableofcontents %生成目录
+\pagestyle{empty}
+\clearpage
+\pagestyle{fancy} %开始使用页眉页脚
+\setcounter{page}{1} %论文页码从正文开始记数
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./body/xulun.tex}                % 
+\clearpage    %绪论                     %
+\setcounter{table}{0}                   %              
+\setcounter{figure}{0}                  %
+\input{./body/SectionA.tex} %正文第一章 %
+\clearpage                              %
+\setcounter{table}{0}                   %
+\setcounter{figure}{0}                  %
+\input{./body/SectionB.tex} %正文第二章  %
+\clearpage                              %  
+\setcounter{table}{0}                   %
+\setcounter{figure}{0}                  % 
+\input{./body/SectionC.tex} %正文第三章  % <=一般情况下，本文件内你只需要修改这部分内容
+\clearpage                              %    这里是文章主体部分，去body里面寻找就可以
+\setcounter{table}{0}                   %
+\setcounter{figure}{0}                  %
+\input{./body/SectionD.tex} %正文第四章  %
+\clearpage                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{./ending/jielun.tex}%倒入结论
+\clearpage
+
+\bibliographystyle{elsarticle-num-names}%参考文献按出场顺序排，plain按名字排列
+\input{./reference/ref.tex}%你所需要的参考文献
+
+\addcontentsline{toc}{section}{参考文献}  
+
+
+\makeacknowledgement %生成感谢
+%强制生成附录
+\clearpage
+\addcontentsline{toc}{section}{附录}
+\makeapdx
+
+\end{document}

@@ -1,0 +1,31 @@
+\contentsline {section}{摘要}{I}{Doc-Start}
+\contentsline {section}{Abstract}{II}{Doc-Start}
+\contentsline {section}{\numberline {1}绪论}{1}{section.1}
+\contentsline {section}{\numberline {2}章节结构测试}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}小节标题}{2}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}子节标题}{2}{subsubsection.2.1.1}
+\contentsline {paragraph}{\numberline {2.1.1.1}段标题}{2}{paragraph.2.1.1.1}
+\contentsline {subparagraph}{\numberline {2.1.1.1.1}小段标题}{2}{subparagraph.2.1.1.1.1}
+\contentsline {section}{\numberline {3}定理等环境测试}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}编号环境与不编号环境}{3}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}编号环境}{3}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}无编号环境}{3}{subsubsection.3.1.2}
+\contentsline {section}{\numberline {4}公式测试}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}行内公式}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}整行公式}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}多行公式}{4}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}align环境}{4}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}split环境（内嵌）}{4}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}带大括号的多行公式}{5}{subsubsection.4.3.3}
+\contentsline {paragraph}{\numberline {4.3.3.1}cases}{5}{paragraph.4.3.3.1}
+\contentsline {paragraph}{\numberline {4.3.3.2}array}{5}{paragraph.4.3.3.2}
+\contentsline {paragraph}{\numberline {4.3.3.3}aligned}{5}{paragraph.4.3.3.3}
+\contentsline {subsection}{\numberline {4.4}交换图}{5}{subsection.4.4}
+\contentsline {section}{\numberline {5}表与图}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}表格}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}插图}{7}{subsection.5.2}
+\contentsline {section}{结论}{8}{section*.4}
+\contentsline {section}{参考文献}{9}{section*.5}
+\contentsline {section}{致谢}{10}{section*.6}
+\contentsline {section}{附录}{11}{section*.6}
+\contentsfinish 
